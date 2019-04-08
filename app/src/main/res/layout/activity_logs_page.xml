@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/page"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:id="@+id/log_box"
@@ -19,8 +19,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="log"
+        android:textColor="@color/white"
         android:textSize="35sp"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.402"
@@ -36,6 +37,9 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="a"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:inputType="numberDecimal|numberSigned"
         app:layout_constraintTop_toBottomOf="@+id/user_manual"/>
 
@@ -45,6 +49,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="b"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:inputType="numberDecimal|numberSigned"
         app:layout_constraintTop_toBottomOf="@+id/et_a"/>
 
@@ -54,6 +61,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="c"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:inputType="numberDecimal|numberSigned"
         app:layout_constraintTop_toBottomOf="@+id/et_b"/>
 
@@ -62,6 +72,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SOLVE"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/et_c"/>
 
     <TextView
@@ -70,7 +82,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="24dp"
-
+        android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/bt_go"/>
 
     <TextView
@@ -79,8 +91,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="a"
+        android:textColor="@color/white"
         android:textSize="35sp"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toStartOf="@+id/b_c_view"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -92,8 +105,9 @@
         android:layout_marginEnd="75dp"
         android:layout_marginRight="75dp"
         android:text="(b)  =  c"
+        android:textColor="@color/white"
         android:textSize="35sp"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -104,7 +118,8 @@
         android:layout_marginTop="25dp"
         android:text="Input the variables you know and place 999 on the unknown line"
         android:textSize="30sp"
-        android:typeface="serif"
+        android:typeface="sans"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/log_box" />
 </android.support.constraint.ConstraintLayout>

@@ -38,7 +38,7 @@ public class Maths_Setting_Graph extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_graphing);
+        setContentView(R.layout.activity_maths__setting__graph);
 
         //initialisation
         submitButton = (Button) findViewById(R.id.submit_fct);

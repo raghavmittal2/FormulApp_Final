@@ -11,22 +11,28 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:orientation="vertical"
-    android:background="@drawable/page">
+    android:background="@color/colorPrimaryDark">
 
     <EditText
         android:id="@+id/et_a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="a"
-        android:inputType="numberDecimal|numberSigned" />
+        android:hint="Enter the coefficient of x^2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColor="@color/white"
+        android:textColorHint="@color/darkgrey"
+        android:typeface="sans" />
 
     <EditText
         android:id="@+id/et_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="b"
+        android:hint="Enter the Coefficient of x"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:inputType="numberDecimal|numberSigned" />
 
     <EditText
@@ -34,19 +40,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="c"
+        android:hint="Enter the constant value"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:inputType="numberDecimal|numberSigned" />
 
     <Button
         android:id="@+id/bt_go"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SOLVE" />
+        android:background="@drawable/roundedbutton"
+        android:text="SOLVE"
+        android:textColor="@color/white"
+        android:typeface="sans" />
 
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
+        android:textColor="@color/white"
+        android:typeface="sans"
         android:textSize="24dp"/>
 </LinearLayout>

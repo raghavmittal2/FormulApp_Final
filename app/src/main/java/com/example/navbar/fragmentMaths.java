@@ -21,6 +21,8 @@ public class fragmentMaths extends Fragment {
     private Button mathsnumericintegeration;
     private Button two_d_btn;
     private Button three_d_btn;
+    private Button logs_btn;
+    private Button maths_func_btn;
 
     @Nullable
     @Override
@@ -48,10 +50,14 @@ public class fragmentMaths extends Fragment {
         differentiate_btn.getBackground().setAlpha(64);
         mathsnumericintegeration = (Button) view.findViewById(R.id.mathsnumericintegeration);
         mathsnumericintegeration.getBackground().setAlpha(64);
-        two_d_btn  = (Button) view.findViewById(R.id.two_d_btn);
-        two_d_btn.getBackground().setAlpha(64) ;
-        three_d_btn  = (Button) view.findViewById(R.id.three_d_btn);
-        three_d_btn.getBackground().setAlpha(64) ;
+        two_d_btn = (Button) view.findViewById(R.id.two_d_shapes_btn);
+        two_d_btn.getBackground().setAlpha(64);
+        three_d_btn = (Button) view.findViewById(R.id.three_d_shapes_btn);
+        three_d_btn.getBackground().setAlpha(64);
+        logs_btn = (Button) view.findViewById(R.id.log_btn);
+        logs_btn.getBackground().setAlpha(64);
+        maths_func_btn = (Button) view.findViewById(R.id.func_btn);
+        maths_func_btn.getBackground().setAlpha(64);
 
         Trig_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,6 +101,13 @@ public class fragmentMaths extends Fragment {
             }
         });
 
+        maths_func_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                openMathsFunction(v);         //function for opening page
+            }
+        });
+
         differentiate_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -112,14 +125,21 @@ public class fragmentMaths extends Fragment {
         two_d_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                openTwoDPage(v);         //function for opening page
+                openTwoDShapes(v);         //function for opening page
             }
         });
 
         three_d_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                openThreeDPage(v);         //function for opening page
+                openThreeDShapes(v);         //function for opening page
+            }
+        });
+
+        logs_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                openLogsPage(v);         //function for opening page
             }
         });
     }
@@ -155,6 +175,11 @@ public class fragmentMaths extends Fragment {
         startActivity(intent);
     }
 
+    public void openMathsFunction(View v) {
+        Intent intent = new Intent(getActivity(), Maths_Function.class);
+        startActivity(intent);
+    }
+
     public void openDifferentiatePage(View v) {
         Intent intent = new Intent(getActivity(), differentiation.class);
         startActivity(intent);
@@ -165,15 +190,18 @@ public class fragmentMaths extends Fragment {
         startActivity(intent);
     }
 
-    public void openTwoDPage(View v) {//Not really sure how this work will have to look into it
-
+    public void openTwoDShapes(View v) {
         Intent intent = new Intent(getActivity(), Two_d_page.class);
         startActivity(intent);
     }
 
-    public void openThreeDPage(View v) {//Not really sure how this work will have to look into it
-
+    public void openThreeDShapes(View v) {
         Intent intent = new Intent(getActivity(), Three_d_page.class);
+        startActivity(intent);
+    }
+
+    public void openLogsPage(View v) {
+        Intent intent = new Intent(getActivity(), Logs_page.class);
         startActivity(intent);
     }
 }

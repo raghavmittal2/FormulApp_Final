@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Physics_page">
+    tools:context=".Physics_page"
+    android:background="@color/colorPrimaryDark">
 
     <ScrollView
         android:layout_width="405dp"
@@ -34,7 +35,9 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
                 android:text="@string/mechanics"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/textView6"
@@ -43,6 +46,8 @@
                 android:paddingStart="10dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/linear_motion_with_constant_acceleration" />
 
             <TextView
@@ -51,6 +56,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:text="@string/v_u_at"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 tools:text="v = u + at" />
 
             <TextView
@@ -58,27 +65,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="@string/s_ut_1_2at_2" />
+                android:text="@string/s_ut_1_2at_2"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="@string/v_2_u_2_2as" />
+                android:text="@string/v_2_u_2_2as"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="@string/s_u_2_v_2_t" />
+                android:text="@string/s_u_2_v_2_t"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/average_speed_distance_time" />
 
             <TextView
@@ -87,6 +102,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/relative_motion" />
 
             <TextView
@@ -94,6 +111,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sb_sb_sc" />
 
             <TextView
@@ -101,6 +120,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/vbc_vb_vc" />
 
             <TextView
@@ -108,6 +129,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/abc_ab_ac" />
 
             <TextView
@@ -116,6 +139,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/momentum_of_a_partical" />
 
             <TextView
@@ -123,6 +148,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/mv" />
 
             <TextView
@@ -131,6 +158,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/newton_s_experimental_law_nel" />
 
             <TextView
@@ -138,6 +167,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/v1_v2_e_u1_u2" />
 
             <TextView
@@ -146,6 +177,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/conservation_of_momentum" />
 
             <TextView
@@ -153,6 +186,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/m1_u1_m2_u2_m1_v1_m2_v2" />
 
             <TextView
@@ -161,6 +196,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/impulse_change_in_momentum" />
 
             <TextView
@@ -168,6 +205,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/m_v_m_u" />
 
             <TextView
@@ -176,6 +215,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/angle_in_radians" />
 
             <TextView
@@ -183,6 +224,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/s_r" />
 
             <TextView
@@ -191,6 +234,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/angular_velocity" />
 
             <TextView
@@ -198,6 +243,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/r" />
 
             <TextView
@@ -206,6 +253,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/linear_velocity_and_angular_velocity" />
 
             <TextView
@@ -213,6 +262,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/v_r" />
 
             <TextView
@@ -221,6 +272,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/centripetal_acceleration" />
 
             <TextView
@@ -228,6 +281,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/a_2_r" />
 
             <TextView
@@ -236,6 +291,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/centripetal_force" />
 
             <TextView
@@ -243,6 +300,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/f_m_r_2_m_v_2_2" />
 
             <TextView
@@ -251,6 +310,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/newton_s_law_of_gravitation" />
 
             <TextView
@@ -258,6 +319,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/f_g_m1_m2_d_2" />
 
             <TextView
@@ -266,6 +329,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/force_and_acceleration" />
 
             <TextView
@@ -273,6 +338,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/f_m_a" />
 
             <TextView
@@ -280,6 +347,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/weight_and_acceleration_due_to_gravity" />
 
@@ -288,6 +357,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/w_m_g_v_g_g_gm_r_2" />
 
             <TextView
@@ -296,6 +367,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/period_of_a_satellite" />
 
             <TextView
@@ -303,6 +376,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/t_2_4_2_r_3_gm" />
 
             <TextView
@@ -311,6 +386,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/moment_of_a_force" />
 
             <TextView
@@ -318,6 +395,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/m_fd" />
 
             <TextView
@@ -325,6 +404,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/torque_of_a_couple" />
 
@@ -333,6 +414,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/t_fd" />
 
             <TextView
@@ -341,7 +424,9 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:text="@string/centres_of_gravity"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"/>
 
             <TextView
                 android:id="@+id/textView25"
@@ -349,6 +434,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/hemisphere_radius_r" />
 
             <TextView
@@ -356,6 +443,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_3_8_r_from_centre" />
 
             <TextView
@@ -363,6 +452,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/hemispherical_shell_radius_r" />
 
@@ -371,6 +462,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_1_2_r_from_centre" />
 
             <TextView
@@ -378,6 +471,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/right_circular_cone_radius_r" />
 
@@ -386,6 +481,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_1_4_h_from_the_base" />
 
             <TextView
@@ -393,6 +490,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/triangular_lamina" />
 
@@ -401,6 +500,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_1_3_from_base_along_median" />
 
             <TextView
@@ -408,6 +509,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/x1_x2_x3_3_y1_y2_y3_3" />
 
             <TextView
@@ -415,6 +518,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/arc_radius_r_angle_2" />
 
@@ -423,6 +528,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/r_sin" />
 
             <TextView
@@ -430,6 +537,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingTop="10dp"
                 android:text="@string/sector_of_disc_radius_r_angle_2" />
 
@@ -438,6 +547,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:paddingBottom="20dp"
                 android:text="@string/_2r_sin_3" />
 

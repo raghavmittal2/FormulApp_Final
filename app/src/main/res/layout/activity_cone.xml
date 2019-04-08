@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Cone"
-    android:background="@drawable/formula_layer1">
+    android:background="@color/colorPrimaryDark">
 
     <ScrollView
         android:layout_width="405dp"
@@ -36,12 +36,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:layout_marginLeft="67dp"
-                android:textColor="@color/white"
                 android:text="Area and Volume"
+                android:textColor="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -52,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="CONE:"
+                android:text="Cone"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -66,10 +65,11 @@
                 android:id="@+id/ConeRadius"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/darkgrey"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Radius"
+                android:textColorHint="@color/darkgrey"
+                android:textColor="@color/white"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/ConeHeader" />
 
@@ -77,10 +77,11 @@
                 android:id="@+id/Cone_length"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/darkgrey"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Length"
+                android:textColorHint="@color/darkgrey"
+                android:textColor="@color/white"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/ConeRadius" />
 
@@ -89,9 +90,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textColorHint="@color/darkgrey"
                 android:ems="10"
                 android:hint="Height"
+                android:textColorHint="@color/darkgrey"
+                android:textColor="@color/white"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/Cone_length" />
 
@@ -112,6 +114,7 @@
                 android:layout_marginTop="20dp"
                 android:text=""
                 android:textSize="24dp"
+                android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@+id/solve_cone_button" />
 
 

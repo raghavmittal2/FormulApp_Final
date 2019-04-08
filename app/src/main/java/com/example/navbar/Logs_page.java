@@ -56,7 +56,6 @@ public class Logs_page extends AppCompatActivity {
                         tv_result.setText("c = " + c );
 
                 }
-
             }
 
         });

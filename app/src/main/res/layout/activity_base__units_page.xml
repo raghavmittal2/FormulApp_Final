@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/formula_layer1"
-    tools:context=".Base_Units_page">
+    tools:context=".Base_Units_page"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:id="@+id/Header"
@@ -13,14 +13,14 @@
         android:layout_height="55dp"
         android:layout_marginStart="67dp"
         android:layout_marginLeft="67dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="Base Units"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,31 +42,30 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:text="UNIT SYMBOL"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="SI BASE UNIT"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:text="Symbol for unit"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textColor="@color/colorAccent"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="BASE QUANTITY"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                android:text="SI base unit"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Base Quantity"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textColor="@color/colorAccent"/>
         </TableRow>
 
         <TableRow>
@@ -76,27 +75,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
                 android:text="m"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
                 android:text="metre"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
                 android:text="length(l)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
 
         <TableRow>
@@ -105,58 +104,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                android:text="kg"
-                android:textColor="@color/white" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="kilogram"
-                android:textColor="@color/white" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="mass(m)"
-                android:textColor="@color/white" />
-        </TableRow>
-
-        <TableRow>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="kg"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="kilogram"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="mass(m)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
 
         <TableRow>
@@ -165,130 +134,155 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="kg"
+                android:typeface="sans"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="kilogram"
+                android:typeface="sans"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="mass(m)"
+                android:typeface="sans"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="s"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="second"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="time(t)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
-
         <TableRow>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="A"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="amphere"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="electrical current(I)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
-
         <TableRow>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="K"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:layout_marginTop="10dp"
                 android:text="Kelvin"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="Temperature (T)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
-
         <TableRow>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="m"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="mole"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="amount of substance (n)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
-
         <TableRow>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="cd"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -296,17 +290,19 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="candela"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:layout_weight="1"
                 android:text="Luminous Intensity (Is)"
-                android:textColor="@color/white" />
+                android:typeface="sans"
+                android:textColor="@color/white"/>
         </TableRow>
+
 
 
     </TableLayout>

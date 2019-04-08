@@ -11,7 +11,7 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:orientation="vertical"
-    android:background="@drawable/formula_layer1">
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:id="@+id/instr"
@@ -19,13 +19,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="67dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="Enter two masses, and the distance between them."
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +39,7 @@
         android:ems="10"
         android:hint="Mass 1 (kg)"
         android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
         android:inputType="numberDecimal|numberSigned" />
 
     <EditText
@@ -48,6 +49,7 @@
         android:ems="10"
         android:hint="Mass 2 (kg)"
         android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
         android:inputType="numberDecimal|numberSigned" />
 
     <EditText
@@ -56,8 +58,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Distance (m)"
-        android:inputType="numberDecimal|numberSigned"
-        android:textColorHint="@color/darkgrey"/>
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
+        android:inputType="numberDecimal|numberSigned" />
 
     <Button
         android:id="@+id/bt_go"
@@ -80,7 +83,7 @@
         android:text="-"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="@+id/bt_go"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/bt_go"

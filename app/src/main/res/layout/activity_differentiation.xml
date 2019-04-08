@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".differentiation"
-    android:background="@drawable/formula_layer1">
+    android:background="@color/colorPrimaryDark">
 
 
     <EditText
         android:id="@+id/function"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:layout_margin=""
-        android:textColorHint="@color/darkgrey"
         android:hint="Enter your function!"
+        android:textColorHint="@color/darkgrey"
+        android:textColor="@color/white"
         app:layout_constraintTop_toTopOf="parent" />
 
         <Button
@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Show!"
-            android:textColor="@color/white"
             android:background="@drawable/roundedbutton"
+            android:textColor="@color/white"
             app:layout_constraintTop_toBottomOf="@+id/function"/>
 
 
@@ -36,6 +36,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text=""
+            android:textColor="@color/white"
+            android:typeface="sans"
             app:layout_constraintTop_toBottomOf="@+id/show_function"
             ></io.github.kexanie.library.MathView>
 
@@ -45,8 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
             android:text="Differentiate"
-            android:textColor="@color/white"
             android:background="@drawable/roundedbutton"
+            android:textColor="@color/white"
             app:layout_constraintTop_toBottomOf="@+id/show_function"/>
 
         <TextView
@@ -56,8 +58,9 @@
             android:text=""
             android:textStyle="bold"
             android:layout_marginTop="110dp"
-            android:typeface="sans"
+            android:typeface="serif"
             android:textSize="40dp"
+            android:textColor="@color/white"
             app:layout_constraintTop_toTopOf="@+id/diff_view_btn" />
 
 

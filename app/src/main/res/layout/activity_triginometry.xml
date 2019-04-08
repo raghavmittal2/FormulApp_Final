@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Trig_page"
-    tools:showIn="@layout/activity_triginometry">
+    tools:showIn="@layout/activity_triginometry"
+    android:background="@color/colorPrimaryDark">
 
     <ScrollView
         android:layout_width="417dp"
@@ -31,6 +32,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:text="@string/odd_even_identities" />
 
             <TextView
@@ -38,6 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_x_sin_x" />
 
             <TextView
@@ -45,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_x_cos_x" />
 
             <TextView
@@ -52,6 +59,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/tan_x_tan_x" />
 
             <TextView
@@ -61,6 +70,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:text="@string/angle_sum_and_difference_identities" />
 
             <TextView
@@ -68,6 +79,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_sin_cos_cos_sin1" />
 
             <TextView
@@ -75,6 +88,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_sin_cos_cos_sin" />
 
             <TextView
@@ -82,6 +97,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_cos_cos_sin_sin1" />
 
             <TextView
@@ -89,6 +106,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_cos_cos_sin_sin" />
 
             <TextView
@@ -96,6 +115,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/tan_1_tan_tan_tan_tan" />
 
             <TextView
@@ -103,6 +124,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/tan_1_tan_tan_tan_tan1" />
 
             <TextView
@@ -112,6 +135,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:text="@string/product_identities" />
 
             <TextView
@@ -119,6 +144,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_2_sin_x_cos_y_sin_x_y_sin_x_y" />
 
             <TextView
@@ -126,6 +153,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_2_cos_x_sin_y_sin_x_y_sin_x_y" />
 
             <TextView
@@ -133,6 +162,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_2_cos_x_cos_y_cos_x_y_cos_x_y" />
 
             <TextView
@@ -140,6 +171,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/_2_sin_x_sin_y_cos_x_y_cos_x_y" />
 
             <TextView
@@ -149,6 +182,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:text="@string/double_angle_identities" />
 
             <TextView
@@ -156,6 +191,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_2x_2sin_x_cos_x" />
 
             <TextView
@@ -163,6 +200,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_2x_cos_x_cos_x_sin_x_sin_x" />
 
             <TextView
@@ -170,6 +209,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_2x_2_cos_2_x_1" />
 
             <TextView
@@ -177,7 +218,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_2x_2_cos_x_1" />
 
             <TextView
@@ -185,6 +227,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_2x_1_2_sin_2_x" />
 
             <TextView
@@ -192,6 +236,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/tan_2x_2tn_x_1_tan_2_x" />
 
             <TextView
@@ -201,6 +247,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sum_to_product_identities" />
 
             <TextView
@@ -208,6 +256,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_x_sin_y_2_sin_x_y_2_cos_x_y_2" />
 
             <TextView
@@ -215,6 +265,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_x_sin_y_2_cos_x_y_2_sin_x_y_2" />
 
             <TextView
@@ -222,6 +274,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_x_cos_y_2_cos_x_y_2_cos_x_y_2" />
 
             <TextView
@@ -229,6 +283,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cos_x_cos_y_2_sin_x_y_2_sin_x_y_2" />
 
             <TextView
@@ -238,6 +294,8 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:text="@string/periodicity_identities_degrees" />
 
             <TextView
@@ -245,6 +303,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_x_360_sin_x" />
 
             <TextView
@@ -252,6 +312,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/sin_x_360_cos_x" />
 
             <TextView
@@ -259,6 +321,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/tan_x_180_tan_x" />
 
             <TextView
@@ -266,6 +330,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:typeface="sans"
                 android:text="@string/cot_x_180_cot_x" />
 
 

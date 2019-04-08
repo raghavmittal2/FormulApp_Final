@@ -27,15 +27,24 @@ public class Two_d_page extends AppCompatActivity {
 
 
 
-        cir_btn = (Button) findViewById(R.id.cir_btn);         //declaring buttons
+        cir_btn = (Button) findViewById(R.id.cir_btn);
+        cir_btn.getBackground().setAlpha(64);//declaring buttons
         squ_btn = (Button) findViewById(R.id.squ_btn);
+        squ_btn.getBackground().setAlpha(64);
         tri_btn = (Button) findViewById(R.id.tri_btn);
+        tri_btn.getBackground().setAlpha(64);
         rec_btn = (Button) findViewById(R.id.rec_btn);
+        rec_btn.getBackground().setAlpha(64);
         tra_btn = (Button) findViewById(R.id.tra_btn);
+        tra_btn.getBackground().setAlpha(64);
         pen_btn = (Button) findViewById(R.id.pen_btn);
+        pen_btn.getBackground().setAlpha(64);
         oct_btn = (Button) findViewById(R.id.oct_btn);
+        oct_btn.getBackground().setAlpha(64);
         hex_btn = (Button) findViewById(R.id.hex_btn);
+        hex_btn.getBackground().setAlpha(64);
         rho_btn = (Button) findViewById(R.id.rho_btn);
+        rho_btn.getBackground().setAlpha(64);
 
 
         cir_btn.setOnClickListener(new View.OnClickListener() {

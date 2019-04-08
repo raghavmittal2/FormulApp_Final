@@ -27,7 +27,9 @@ public class units_page extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Base_units_btn   =  (Button) view.findViewById(R.id.Base_units_btn);         //declaring buttons
+        Base_units_btn.getBackground().setAlpha(64);
         SI_units_btn = (Button) view.findViewById(R.id.SI_unit_btn);
+        SI_units_btn.getBackground().setAlpha(64);
 
         Base_units_btn.setOnClickListener(new View.OnClickListener() {
             @Override

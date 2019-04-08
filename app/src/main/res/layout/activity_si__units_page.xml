@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SI_Units_page">
+    tools:context=".SI_Units_page"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:id="@+id/Header"
@@ -16,10 +17,10 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:text="SI Units"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:typeface="serif"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +43,8 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="Factor"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:textStyle="bold" />
 
             <TextView
@@ -50,6 +53,8 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="Symbol"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:textStyle="bold" />
 
             <TextView
@@ -58,6 +63,8 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:text="Prefix"
+                android:textColor="@color/colorAccent"
+                android:typeface="sans"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -68,21 +75,24 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^24" />
+                android:text="〖10〗^24"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="Y" />
+                android:text="Y"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="yotta" />
+                android:text="yotta"
+                android:textColor="@color/white"/>
         </TableRow>
 
         <TableRow>
@@ -92,21 +102,25 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^21" />
+                android:text="〖10〗^21"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="Z" />
+                android:text="Z"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="zetta" />
+                android:text="zetta"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -116,21 +130,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^18" />
+                android:text="〖10〗^18"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="E" />
+                android:text="E"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="exa" />
+                android:text="exa"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -140,21 +160,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^15" />
+                android:text="〖10〗^15"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="P" />
+                android:text="P"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="peta" />
+                android:text="peta"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -164,21 +190,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^12" />
+                android:text="〖10〗^12"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="T" />
+                android:text="T"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="tera" />
+                android:text="tera"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -188,21 +220,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^9" />
+                android:text="〖10〗^9"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="G" />
+                android:text="G"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="giga" />
+                android:text="giga"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -212,21 +250,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^6" />
+                android:text="〖10〗^6"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="M" />
+                android:text="M"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="mega" />
+                android:text="mega"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -236,21 +280,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^3" />
+                android:text="〖10〗^3"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="k" />
+                android:text="k"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="kilo" />
+                android:text="kilo"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
         </TableRow>
 
@@ -261,21 +311,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^2" />
+                android:text="〖10〗^2"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="h" />
+                android:text="h"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="hecto" />
+                android:text="hecto"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -285,21 +341,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^1" />
+                android:text="〖10〗^1"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="da" />
+                android:text="da"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="deka" />
+                android:text="deka"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -309,21 +371,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-24" />
+                android:text="〖10〗^-24"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="y" />
+                android:text="y"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="yocto" />
+                android:text="yocto"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -333,21 +401,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-21" />
+                android:text="〖10〗^-21"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="z" />
+                android:text="z"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="zepto" />
+                android:text="zepto"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -357,21 +431,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-18" />
+                android:text="〖10〗^-18"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="a" />
+                android:text="a"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="atto" />
+                android:text="atto"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -381,21 +461,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-15" />
+                android:text="〖10〗^-15"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="f" />
+                android:text="f"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="femto" />
+                android:text="femto"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -405,21 +491,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-12" />
+                android:text="〖10〗^-12"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="p" />
+                android:text="p"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="pico" />
+                android:text="pico"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -429,21 +521,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-9" />
+                android:text="〖10〗^-9"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="n" />
+                android:text="n"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="nano" />
+                android:text="nano"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -453,21 +551,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-6" />
+                android:text="〖10〗^-6"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="μ" />
+                android:text="μ"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="micro" />
+                android:text="micro"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -477,21 +581,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-3" />
+                android:text="〖10〗^-3"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="m" />
+                android:text="m"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="milli" />
+                android:text="milli"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -501,21 +611,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-2" />
+                android:text="〖10〗^-2"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="c" />
+                android:text="c"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="centi" />
+                android:text="centi"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
 
         <TableRow>
@@ -525,21 +641,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="〖10〗^-1" />
+                android:text="〖10〗^-1"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="d" />
+                android:text="d"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                android:text="deci" />
+                android:text="deci"
+                android:textColor="@color/white"
+                android:typeface="sans"/>
         </TableRow>
     </TableLayout>
 

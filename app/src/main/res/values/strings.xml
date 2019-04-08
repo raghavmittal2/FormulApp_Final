@@ -124,13 +124,13 @@
     <string name="ni_button_home">Maths Homepage</string>
     <string name="maths_ni">Integrate a function</string>
     <string name="search">Search</string>
-
+    <string name="two_d_shapes">2-D shapes</string>
     <string name="physics">Physics</string>
-
+    <string name="logs_page">Calculate Logarithm</string>
 
     <string name="title_activity_testcase">testcase</string>
     <string name="Differentiate">Differentiate</string>
-    <string name="_3d_shapes">3D Shapes</string>
-    <string name="_2d_shapes">2D Shapes</string>
+    <string name="three_d_shapes">3-D shapes</string>
+    <string name="Solve_maths_function">SOLVE FUNCTION</string>
 
 </resources>

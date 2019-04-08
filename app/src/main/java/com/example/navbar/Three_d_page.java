@@ -27,13 +27,21 @@ public class Three_d_page extends AppCompatActivity {
 
 
         sph_btn = (Button) findViewById(R.id.sph_btn);         //declaring buttons
+        sph_btn.getBackground().setAlpha(64);
         con_btn = (Button) findViewById(R.id.con_btn);
+        con_btn.getBackground().setAlpha(64);
         cyl_btn = (Button) findViewById(R.id.cyl_btn);
+        cyl_btn.getBackground().setAlpha(64);
         cub_btn = (Button) findViewById(R.id.cub_btn);
+        cub_btn.getBackground().setAlpha(64);
         cui_btn = (Button) findViewById(R.id.cui_btn);
+        cui_btn.getBackground().setAlpha(64);
         fru_btn = (Button) findViewById(R.id.fru_btn);
-        tet_btn = (Button) findViewById(R.id.tet_btn);
+        fru_btn.getBackground().setAlpha(64);
+        tet_btn = (Button) findViewById(R.id.tetra_btn);
+        tet_btn.getBackground().setAlpha(64);
         ocz_btn = (Button) findViewById(R.id.ocz_btn);
+        ocz_btn.getBackground().setAlpha(64);
 
 
         sph_btn.setOnClickListener(new View.OnClickListener() {
@@ -115,7 +123,7 @@ public class Three_d_page extends AppCompatActivity {
         startActivity(intent);
     }
     public void opentet_btnPage(){
-        Intent intent = new Intent(this,Tetrahedron.class);
+        Intent intent = new Intent(this, Tetrahedron.class);
         startActivity(intent);
     }
     public void openocz_btnPage(){
