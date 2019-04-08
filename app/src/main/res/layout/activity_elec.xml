@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".Length_Area_page">
+    tools:context=".Length_Area_page"
+    android:background="@drawable/formula_layer1">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -34,13 +35,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="67dp"
                 android:layout_marginLeft="67dp"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="55dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
                 android:text="Electricity Formulae"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -50,8 +52,9 @@
             <TextView
                 android:id="@+id/textView57"
                 android:layout_width="wrap_content"
-                android:layout_height="607dp"
-                android:layout_marginTop="45dp"
+                android:layout_height="760dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
                 android:text="Coulomb's Law: F = 1/(4πε) * (q1*q2)/d^2\n\nField Strength: E = F/q\n
 Potential Difference: V = W/q\n\nOhm's Law: V = IR\n\nResistivity: p = RA/l\n\nResistors in Series: R = R1 + R2\n
 Resistors in Parallel: 1/R = 1/R1 + 1/R2\n\nWheatstone Bridge: R1/R2 = R3/R4\n\nJoule's Law = P = R(I^2)\n

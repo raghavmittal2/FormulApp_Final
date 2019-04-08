@@ -130,5 +130,7 @@
 
     <string name="title_activity_testcase">testcase</string>
     <string name="Differentiate">Differentiate</string>
+    <string name="_3d_shapes">3D Shapes</string>
+    <string name="_2d_shapes">2D Shapes</string>
 
 </resources>

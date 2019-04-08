@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Getting_Area_Volume"
+    android:background="@drawable/formula_layer1"
     >
 
     <ScrollView
@@ -36,10 +37,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
+                android:layout_marginLeft="67dp"
+                android:textColor="@color/white"
                 android:text="Area and Volume"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -49,10 +52,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Cylinder"
+                android:text="CYLINDER:"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="178dp"
@@ -64,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
+                android:textColorHint="@color/darkgrey"
                 android:hint="Radius"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/CylinderHeader"/>
@@ -75,6 +80,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Height"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/CylinderRadius" />
 
@@ -84,6 +90,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Area and Volume"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@+id/Cylinder_length"/>
 
             <TextView
@@ -104,10 +112,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Cone"
+                android:text="CONE:"
+                android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="178dp"
@@ -120,6 +129,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Radius"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/ConeHeader"/>
 
@@ -130,6 +140,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Length"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/ConeRadius" />
 
@@ -140,6 +151,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Height"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/Cone_length" />
 
@@ -149,6 +161,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Area and Volume"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@+id/Cone_length"/>
 
             <TextView
@@ -167,10 +181,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Sphere"
+                android:text="SPHERE:"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="178dp"
@@ -183,6 +197,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Radius"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/SphereHeader"/>
 
@@ -193,6 +208,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Area and Volume"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
                 app:layout_constraintTop_toBottomOf="@+id/Sphere_radius"/>
 
             <TextView

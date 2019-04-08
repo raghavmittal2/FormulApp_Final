@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Getting_Area_Volume"
-    android:background="@drawable/page">
+    android:background="@drawable/formula_layer1">
 
     <ScrollView
         android:layout_width="405dp"
@@ -35,10 +35,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Area of 2 D Shapes"
+                android:layout_marginLeft="67dp"
+                android:text="Area of 2D Shapes"
                 android:textSize="30sp"
+                android:textColor="@color/white"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -48,10 +50,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Circle"
+                android:text="CIRCLE:"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title"
@@ -64,6 +67,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Radius"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/Header" />
 
@@ -73,7 +77,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textColor="@color/white"
                 android:text="Area "
+                android:background="@drawable/roundedbutton"
                 app:layout_constraintTop_toBottomOf="@+id/Circleradius" />
 
             <TextView
@@ -82,6 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text=""
+                android:textColor="@color/white"
                 android:textSize="24dp"
                 app:layout_constraintTop_toBottomOf="@+id/solve_button" />
 

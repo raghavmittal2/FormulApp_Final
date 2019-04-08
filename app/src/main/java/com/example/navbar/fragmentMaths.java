@@ -19,6 +19,8 @@ public class fragmentMaths extends Fragment {
     private Button graph_btn;
     private Button differentiate_btn;
     private Button mathsnumericintegeration;
+    private Button two_d_btn;
+    private Button three_d_btn;
 
     @Nullable
     @Override
@@ -46,6 +48,10 @@ public class fragmentMaths extends Fragment {
         differentiate_btn.getBackground().setAlpha(64);
         mathsnumericintegeration = (Button) view.findViewById(R.id.mathsnumericintegeration);
         mathsnumericintegeration.getBackground().setAlpha(64);
+        two_d_btn  = (Button) view.findViewById(R.id.two_d_btn);
+        two_d_btn.getBackground().setAlpha(64) ;
+        three_d_btn  = (Button) view.findViewById(R.id.three_d_btn);
+        three_d_btn.getBackground().setAlpha(64) ;
 
         Trig_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,6 +108,20 @@ public class fragmentMaths extends Fragment {
                 openMathsNumericIntegeration(v);         //function for opening page
             }
         });
+
+        two_d_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                openTwoDPage(v);         //function for opening page
+            }
+        });
+
+        three_d_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                openThreeDPage(v);         //function for opening page
+            }
+        });
     }
 
     public void openTrigPage(View v) {//Not really sure how this work will have to look into it
@@ -142,6 +162,18 @@ public class fragmentMaths extends Fragment {
 
     public void openMathsNumericIntegeration(View v) {
         Intent intent = new Intent(getActivity(), MathsNumericIntegration.class);
+        startActivity(intent);
+    }
+
+    public void openTwoDPage(View v) {//Not really sure how this work will have to look into it
+
+        Intent intent = new Intent(getActivity(), Two_d_page.class);
+        startActivity(intent);
+    }
+
+    public void openThreeDPage(View v) {//Not really sure how this work will have to look into it
+
+        Intent intent = new Intent(getActivity(), Three_d_page.class);
         startActivity(intent);
     }
 }

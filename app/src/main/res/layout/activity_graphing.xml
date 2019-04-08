@@ -5,7 +5,8 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Maths_Setting_Graph">
+    tools:context=".Maths_Setting_Graph"
+    android:background="@drawable/formula_layer1">
 
     <ScrollView
         android:layout_width="405dp"
@@ -37,6 +38,7 @@
                 android:layout_marginTop="20dp"
                 android:hint="Variable you want to use (Eg:x)"
                 android:ems="10"
+                android:textColorHint="@color/darkgrey"
                 />
 
 
@@ -48,6 +50,7 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Enter your function"
+                android:textColorHint="@color/darkgrey"
 
                 />
 
@@ -59,7 +62,8 @@
                 android:layout_below="@+id/init_fct"
                 android:layout_marginTop="20dp"
                 android:text="Submit"
-
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
                 />
 
 
@@ -81,6 +85,8 @@
                 android:layout_below="@+id/formula"
                 android:layout_marginTop="20dp"
                 android:text="New function"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
 
 
                 />
@@ -94,6 +100,8 @@
                 android:layout_marginTop="20dp"
                 android:onClick="goToGraphSetting"
                 android:text="See Graph"
+                android:background="@drawable/roundedbutton"
+                android:textColor="@color/white"
 
                 />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Cube"
-    android:background="@drawable/page">
+    android:background="@drawable/formula_layer1">
 
     <ScrollView
         android:layout_width="405dp"
@@ -36,10 +36,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
+                android:layout_marginLeft="67dp"
                 android:text="Area and Volume"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -50,10 +52,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="47dp"
-                android:text="Cube"
+                android:text="CUBE:"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:typeface="serif"
+                android:typeface="sans"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title"
@@ -65,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:ems="10"
-                android:hint="Radius"
+                android:hint="Side"
+                android:textColorHint="@color/darkgrey"
                 android:inputType="numberDecimal|numberSigned"
                 app:layout_constraintTop_toBottomOf="@+id/Header" />
 
@@ -76,6 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Area and Volume"
+                android:textColor="@color/white"
+                android:background="@drawable/roundedbutton"
                 app:layout_constraintTop_toBottomOf="@+id/Cubeside" />
 
             <TextView
