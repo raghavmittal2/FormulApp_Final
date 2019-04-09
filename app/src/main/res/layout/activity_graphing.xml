@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Maths_Setting_Graph"
-    android:background="@drawable/formula_layer1">
+    android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="405dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -25,21 +23,29 @@
         app:layout_constraintVertical_bias="0.458">
 
 
-        <RelativeLayout
-            android:id="@+id/relative"
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/FAheaderItalics"
+                android:text="Area of 2D Shapes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
             <EditText
                 android:id="@+id/variable"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:hint="Variable you want to use (Eg:x)"
                 android:ems="10"
-                android:textColorHint="@color/darkgrey"
-                />
+                android:hint="Variable you want to use (Eg:x)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title"/>
 
 
             <EditText
@@ -50,63 +56,59 @@
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:hint="Enter your function"
-                android:textColorHint="@color/darkgrey"
-
-                />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/variable"/>
 
 
             <Button
                 android:id="@+id/submit_fct"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/init_fct"
-                android:layout_marginTop="20dp"
+                style="@style/solveButton"
                 android:text="Submit"
-                android:background="@drawable/roundedbutton"
-                android:textColor="@color/white"
-                />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/init_fct"/>
 
 
             <io.github.kexanie.library.MathView
                 android:id="@+id/formula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_below="@+id/submit_fct"
-                android:text=""
+                android:layout_marginTop="8dp"
 
-                ></io.github.kexanie.library.MathView>
+                android:layout_marginBottom="8dp"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/submit_fct"></io.github.kexanie.library.MathView>
 
 
             <Button
                 android:id="@+id/new_fct"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/formula"
-                android:layout_marginTop="20dp"
+                style="@style/solveButton"
                 android:text="New function"
-                android:background="@drawable/roundedbutton"
-                android:textColor="@color/white"
-
-
-                />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/formula"/>
 
 
             <Button
                 android:id="@+id/graph_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/new_fct"
-                android:layout_marginTop="20dp"
+                style="@style/solveButton"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
                 android:onClick="goToGraphSetting"
                 android:text="See Graph"
-                android:background="@drawable/roundedbutton"
-                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/new_fct" />
 
-                />
-
-
-        </RelativeLayout>
+        </android.support.constraint.ConstraintLayout>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
