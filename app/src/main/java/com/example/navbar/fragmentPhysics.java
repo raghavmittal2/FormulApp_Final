@@ -17,6 +17,7 @@ public class fragmentPhysics extends Fragment {
     private Button Physics_btn4;
     private Button Physics_btn5;
     private Button Physics_btn6;
+    private Button bt_ohm;
     private Button bt_gravity;
     @Nullable
     @Override
@@ -39,6 +40,8 @@ public class fragmentPhysics extends Fragment {
         Physics_btn5.getBackground().setAlpha(64);
         Physics_btn6 = (Button) view.findViewById(R.id.Physics_btn6);
         Physics_btn6.getBackground().setAlpha(64);
+        bt_ohm = (Button) view.findViewById(R.id.bt_ohm_calc);
+        bt_ohm.getBackground().setAlpha(64);
         bt_gravity = (Button) view.findViewById(R.id.bt_gravity);
         bt_gravity.getBackground().setAlpha(64);
 
@@ -85,6 +88,13 @@ public class fragmentPhysics extends Fragment {
             }
         });
 
+        bt_ohm.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openOhmCalc(); // function for opening page
+            }
+        });
+
         bt_gravity.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -119,6 +129,12 @@ public class fragmentPhysics extends Fragment {
     public void openPhysicsPage6() {
 
         Intent intent = new Intent(getActivity(), lens_calc.class);
+        startActivity(intent);
+    }
+
+    public void openOhmCalc() {
+
+        Intent intent = new Intent(getActivity(), OhmLawCalc.class);
         startActivity(intent);
     }
 
